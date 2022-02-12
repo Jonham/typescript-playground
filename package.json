@@ -1,0 +1,26 @@
+{
+  "name": "typescript-playground",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c",
+    "dev": "nodemon template-replace/replace_test.ts"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.2",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.0",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "rollup": "^2.67.2",
+    "rollup-plugin-typescript2": "^0.31.2"
+  }
+}
